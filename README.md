@@ -6,4 +6,4 @@
 
 
 ----------------
-Griffith University All Right Reserved.
+Griffith University All Rights Reserved.
