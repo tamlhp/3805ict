@@ -15,7 +15,7 @@ def count_ray_intersections(point, polygon):
     for i in range(num + 1):
         p2x, p2y = polygon[i % num]
         if y > min(p1y, p2y) and y <= max(p1y, p2y):
-            if x <= max(p1x, p2x):
+            if x < max(p1x, p2x):
                 if p1y != p2y:
                     xints = (y - p1y) * (p2x - p1x) / (p2y - p1y) + p1x
                     if p1x == p2x or x <= xints:

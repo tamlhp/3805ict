@@ -53,6 +53,7 @@ def is_point_in_polygon(point, polygon):
     p1x, p1y = polygon[0]
     for i in range(num+1):
         p2x, p2y = polygon[i % num]
+
         if y > min(p1y, p2y):  # Check if the point's y-coordinate is above the lower end of the edge.
             if y <= max(p1y, p2y):  # Check if the point's y-coordinate is below the higher end of the edge.
                 if x <= max(p1x, p2x):  # Check if the point's x-coordinate is to the left of the edge.

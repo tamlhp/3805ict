@@ -58,7 +58,7 @@ def closest_pair_rec(Px, Py):
         closest_pair = closest_pair_r
     
     # Create strip
-    strip = [p for p in Py if abs(p[0] - midpoint) < d]
+    strip = [p for p in Py if abs(p[0] - midpoint) <= d]
     
     # Find the closest points in strip
     d_strip, strip_pair = strip_closest(strip, d, closest_pair)
