@@ -1,0 +1,11 @@
+Task 9
+https://algorithms.discrete.ma.tum.de/graph-algorithms/spp-bellman-ford/index_en.html
+Upload graph file task9.txt
+
+Task 11
+https://algorithms.discrete.ma.tum.de/graph-algorithms/flow-ford-fulkerson/index_en.html
+Upload graph file task11.txt
+
+Task 12
+https://algorithms.discrete.ma.tum.de/graph-algorithms/spp-floyd-warshall/index_en.html
+Upload graph file task12.txt
