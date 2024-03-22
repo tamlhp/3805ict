@@ -52,17 +52,27 @@ class Graph:
         return max_flow, paths
 
 # Making the graph a bit more complex
-graph = [[0, 16, 13, 0, 0, 0, 0],
-         [0, 0, 0, 12, 0, 0, 0],
-         [0, 4, 0, 0, 14, 0, 0],
-         [0, 0, 9, 0, 0, 0, 20],
-         [0, 0, 0, 7, 0, 4, 0],
-         [0, 0, 0, 0, 0, 0, 10],
-         [0, 0, 0, 0, 0, 0, 0]]
+# graph = [[0, 16, 13, 0, 0, 0, 0],
+#          [0, 0, 0, 12, 0, 0, 0],
+#          [0, 4, 0, 0, 14, 0, 0],
+#          [0, 0, 9, 0, 0, 0, 20],
+#          [0, 0, 0, 7, 0, 4, 0],
+#          [0, 0, 0, 0, 0, 0, 10],
+#          [0, 0, 0, 0, 0, 0, 0]]
+
+graph = [[0, 2, 10, 8, 0, 0, 0, 0],#s
+         [0, 0, 0, 0, 6, 10, 0, 0],#a
+         [0, 0, 0, 0, 6, 3, 2, 0],#b
+         [0, 0, 5, 0, 0, 0, 3, 0],#c
+         [0, 0, 0, 0, 0, 0, 0, 4],#d
+         [0, 0, 0, 0, 0, 0, 0, 9],#e
+         [0, 0, 0, 0, 0, 0, 0, 10],#f
+         [0, 0, 0, 0, 0, 0, 0, 0],#t
+         ]
 g = Graph(graph)
 
 source = 0  # Node 1
-sink = 6    # Node 7
+sink = 7    # Node 7
 max_flow, paths = g.edmonds_karp(source, sink)
 print("The maximum possible flow is:", max_flow)
 print("The paths taken (path, flow) are:")

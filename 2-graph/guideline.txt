@@ -1,3 +1,5 @@
+No slides. Use visualization tool only.
+
 Task 9
 https://algorithms.discrete.ma.tum.de/graph-algorithms/spp-bellman-ford/index_en.html
 Upload graph file task9.txt
@@ -9,3 +11,9 @@ Upload graph file task11.txt
 Task 12
 https://algorithms.discrete.ma.tum.de/graph-algorithms/spp-floyd-warshall/index_en.html
 Upload graph file task12.txt
+
+https://visualgo.net/en/maxflow
+Demo cho cả edmons_karp và ford fulkerson
+
+https://visualgo.net/en
+Visualisation for all graph problems
