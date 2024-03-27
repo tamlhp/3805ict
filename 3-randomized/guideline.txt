@@ -1,0 +1,4 @@
+Use slides and visualization tool as below.
+
+https://visualgo.net/en/mvc
+Visulization for task 1: Deterministic 2-opt
