@@ -1,0 +1,20 @@
+For skip list, use
+https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html
+How to use: 
+- Enter a key then click insert (node will be inserted randomly)
+- To build your own skip list, using flip coins:
++ 1 means add one level, 0 means reduce one level
+Like in the example
+Key 12, coins 10
+Key 17, coins 11110
+Key 20, coins 0
+Key 25, coins 1110
+Key 31, coins 110
+Key 38, coins 10
+Key 39, coins 0
+Key 44, coins 10
+Key 50, coins 0
+Key 55, coins 1110
+
+For treap, use
+https://people.ksp.sk/~kuko/gnarley-trees/Treap.html
